@@ -4,7 +4,7 @@ php:
 
 env:
   matrix:
-    - MAGENTO_VERSION=magento-ce-1.9.2.2
+    - MAGENTO_VERSION=magento-ce-1.9.2.1
 before_script:
   - curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
   - phpenv rehash
