@@ -1,7 +1,6 @@
 language: php
 php:
   - 5.4
-  # - 5.5
 env:
   matrix:
     - MAGENTO_VERSION=magento-ce-1.9.2.2
